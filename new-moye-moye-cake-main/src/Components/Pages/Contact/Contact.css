@@ -1,0 +1,107 @@
+.contact-form {
+    margin: 3em 0;
+}
+.contact-form h2 {
+    font-size: 50px;
+    margin: 0 0 20px;
+    font-family: var(--protest);
+    color: var(--light-pink);
+}
+.contact-form p span {
+    position: absolute;
+    font-size: 25px;
+    margin-left: 15px;
+    top: 5px;
+    color: var(--light-pink);
+}
+.contact-form p {
+    position: relative;
+    margin-bottom: 20px;
+}
+.contact-form p input::placeholder {
+ 
+    font-size: 20px;
+    color: var(--light-pink);
+    font-weight: 500;
+    font-family: var(--protest);
+    position:relative;
+    top:4px;
+}
+.contact-form p input {
+    padding: 12px 10px 15px 45px;
+    width: 90%;
+    border: none;
+    border-radius: 40px;
+    font-family: var(--protest);
+    border: 2px solid var(--light-pink);
+}
+.contact-form textarea::placeholder {
+    color: var(--light-pink);
+}
+.contact-form textarea {
+    border: none;
+    width: 92%;
+    height: 150px;
+    resize: none;
+    border-radius: 10px;
+    padding: 20px;
+    border: 2px solid var(--light-pink);
+}
+.contact-form textarea::placeholder {
+    text-align: center;
+    font-size: 30px;
+    font-family: var(--protest);
+}
+.submit-btn {
+    border: none !important;
+    width: min(100%,250px) !important;
+    padding: 12px  10px!important;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    background: var(--light-pink);
+    border-radius: 10px;
+    cursor:pointer;
+    color:var(--gray);
+    transition: 0.5s;
+}
+.contact-sec .submit-btn {
+    width: 150px !important;
+    border: 2px solid var(--light-pink) !important;
+    border-radius: 40px;
+}
+.contact-sec .submit-btn:hover {
+    background: #0000 !important;
+    color: var(--light-pink) !important;
+    border: 2px solid var(--light-pink) !important;
+}
+.btn-wrp {
+    text-align: center;
+}
+.submit-btn:hover {
+    background: #757575;
+    color: #fff;
+}
+.contact-img-wrp img {
+    width: 100%;
+}
+.contact-sec {
+    margin: 6em 0 0;
+}
+@media only screen and (max-width:768px){
+.contact-sec :where(.css-dev-only-do-not-override-1rqnfsa).ant-row {
+  flex-direction: column;
+}
+.contact-sec :where(.css-dev-only-do-not-override-1rqnfsa).ant-col-12 {
+  max-width: 100%;
+}
+.contact-form p input {
+  width: 80%;
+}
+.contact-form textarea {
+    width: 83%;
+}
+.contact-form .btn-wrp {
+    left: 0;
+}
+}

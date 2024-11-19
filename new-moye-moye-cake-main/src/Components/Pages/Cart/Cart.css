@@ -1,0 +1,11 @@
+@media only screen and (max-width:992px){
+.cart-sec :where(.css-dev-only-do-not-override-1rqnfsa).ant-row {
+    flex-direction: column;
+}
+.cart-sec :where(.css-dev-only-do-not-override-1rqnfsa).ant-col-16 {
+    max-width: 100%;
+}
+.product-quantity span {
+    display: flex;
+}
+}
