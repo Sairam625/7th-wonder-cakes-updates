@@ -1,0 +1,49 @@
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 0;
+    margin: 4em 0 0;
+  }
+  .thought {
+    text-align: center;
+}
+  .about-image-container {
+    flex-basis: 40%;
+  }
+  
+  .about-image {
+    width: 100%;
+    border-radius: 5px;
+  }
+  .about-text-container {
+    flex-basis: 50%;
+    text-align: left;
+    font-family: var(--protest);
+}
+  .about-title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: var(--light-pink);
+  }
+  
+  .about-description {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  .thought img {
+    width: min(100%,1100px);
+    margin-top: 20px;
+    margin-left: 0;
+}
+  .about-services {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  @media only screen and (max-width:768px){
+    .about-container {
+      flex-direction: column;
+      padding: 20px;
+  }
+  }

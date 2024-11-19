@@ -1,0 +1,150 @@
+.back-btn {
+    font-size: 20px;
+    margin: 20px 0 30px;
+}
+.single-product {
+    margin: 6em 0 2em;
+}
+.product-image {
+    padding: 20px;
+    background: var(--light-pink);
+    border-radius: 20px;
+}
+.product-image img {
+    width: 100%;
+    border-radius: 20px;
+}
+.back-btn a {
+    padding: 5px 20px 7px;
+    background: var(--light-pink);
+    color: var(--white);
+    border-radius: 8px;
+    transition:0.5s;
+    font-family: var(--protest);
+    border: 2px solid var(--light-pink);
+}
+.product-cont-wrp {
+    margin: 4em 0 0;
+    font-family: var(--protest);
+}
+.product-title {
+    text-align: center;
+    border-bottom: 2px solid #391f20ab;
+    padding: 0 0 15px;
+    margin: auto;
+    font-size: 40px;
+    font-weight: 500;
+    color: var(--light-pink);
+}
+.product-cont-wrp p {
+    font-size: 20px;
+}
+.product-btn {
+    width: min(100%,300px);
+    display: block;
+    background: var(--light-pink);
+    padding: 13px 0 14px;
+    text-align: center;
+    font-weight: 500;
+    color: var(--white);
+    border-radius: 50px;
+    margin: auto;
+    transition: 0.5s;
+    border: none;
+    font-family: var(--protest);
+    font-size: 18px;
+    cursor: pointer;
+    border: 2px solid var(--light-pink);
+}
+.product-btn:hover, .back-btn a:hover {
+    background: var(--white);
+    color: var(--light-pink);
+    border: 2px solid var(--light-pink);
+}
+.price-wrp {
+    background-image: url('../../../assets/images/pricetag.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    padding: 20px 0;
+    width: min(100%,330px);
+    margin: auto;
+}
+.product-price {
+    text-align: center;
+    position: relative;
+    top: 18px;
+    left: 15px;
+    font-size: 22px;
+    font-weight: 500;
+    color:var(--white);
+}
+.category-title {
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.category-title span {
+    color: var(--light-pink);
+    font-size: 23px;
+    font-weight: 700;
+}
+.quantity-wrp {
+    margin: 20px auto 0;
+    padding: 16px 0;
+    background: var(--light-pink);
+    width: fit-content;
+    border-radius: 12px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-family: var(--protest);
+}
+.quantity-wrp span {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 5px;
+    width: min(100%);
+    color: var(--white);
+}
+.qty-inp input:focus {
+    outline: none;
+}
+.note-wrp {
+    padding: 15px 0;
+    width: min(100%,400px);
+    margin: 20px auto 0;
+    text-align: center;
+    background: var(--light-pink);
+    border-radius: 20px;
+    font-family: var(--protest);
+}
+.note-wrp p {
+    font-size: 18px;
+    color:var(--white)
+}
+.qty-inp input {
+    padding: 8px;
+    border: none;
+    width: min(100%,100px);
+    text-align: center;
+}
+:where(.css-dev-only-do-not-override-1rqnfsa).ant-carousel .slick-dots li button {
+    position: relative;
+    display: block;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    color: #000;
+    font-size: 0;
+    background: #000;
+    border: 0;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 0.3s;
+    border-radius: 23px;
+}
+.slick-dots-bottom li, .slick-active {
+    width: 10px !important;
+}

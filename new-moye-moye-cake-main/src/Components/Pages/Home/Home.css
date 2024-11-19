@@ -1,0 +1,56 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: rgb(0, 136, 255);
+    border: solid black;
+}
+.Home{
+    margin: 0px;
+}
+.main-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.elements img{
+    border-radius: 10px;
+}
+.grid-e3{
+    margin: 20px;
+    padding: 20px;
+    
+}
+.pp-products .category-tems-sec {
+    margin: 1em 0 0;
+}
+.pp-products img{
+    border-radius: 10px;
+}
+
+.thought img{
+    
+    width: 1600px;
+    height: 400px;
+    margin-top: 20px;
+    margin: 20px;
+    margin-left: 50px;
+    border-radius: 20px;
+    align-items: center;
+}
+.slider {
+    margin: 5.5em 0 0;
+}
+.thought pre {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    margin-left: 200px;
+    padding: 2em 0;
+    text-shadow: 2px 2px var(--white);
+    color: var(--light-pink);
+}
+.image{
+    margin-left: -90px;
+}

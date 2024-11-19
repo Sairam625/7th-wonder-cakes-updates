@@ -1,0 +1,261 @@
+:root{
+  --brown:#232323;
+  --light-pink:#391f20;
+  --brown:#000;
+
+  --black:#000;
+  --white:#fff;
+  --gray:#D9D9D9;
+  --protest:"Protest Riot", sans-serif;
+}     
+.css-dev-only-do-not-override-1rqnfsa {
+  margin: 0 !important;
+}
+.item-wrp h2 {
+  font-family: var(--protest);
+  color: var(--light-pink);
+  font-size: 23px;
+}
+.item-wrp p {
+  font-size: 15px;
+  font-family: var(--protest);
+  color: var(--light-pink);
+}
+.item-wrp img {
+  width: 100%;
+  border-radius: 20px;
+}
+.item-wrp {
+  margin: 30px 0;
+  padding: 17px 12px;
+  background: var(--white);
+  border-radius: 20px;
+  box-shadow: 0 0 15px #391f2066;
+}  
+.item-btn {
+  width: 100%;
+  display: block;
+  background: var(--light-pink);
+  padding: 10px;
+  color: var(--white);
+  text-align: center;
+  border-radius: 40px;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 20px 0 0;
+  transition: 0.5s;
+  font-family: var(--protest);
+  border: none;
+  cursor: pointer;
+  border: 2px solid var(--light-pink);
+}
+.item-btn:hover {
+  background: var(--white);
+  color: var(--light-pink);
+  border: 2px solid var(--light-pink);
+}
+.slick-slide.slick-active.slick-current img {
+  display: none;
+}
+:where(.css-dev-only-do-not-override-1rqnfsa).ant-carousel .slick-dots li button {
+  color: var(--light-pink) !important;
+  background: var(--light-pink) !important;
+}
+.category-tems-sec {
+  margin: 7em 0 0;
+}
+ 
+/*Cart CSS*/
+.cart-sec {
+  margin: 9em 0 6em;
+}
+.cart-main-title {
+  font-size: 40px;
+  font-family: var(--protest);
+  color: var(--light-pink);
+  margin: 0 0 20px;
+}
+.cart-items-wrp {
+  padding: 0;
+  margin: 0;
+}
+.cart-items-wrp li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--light-pink);
+}
+.cart-items-wrp .product-img {
+  width: min(100%, 300px) !important;
+  padding: 10px;
+  background: var(--light-pink);
+  border-radius: 15px;
+}
+.product-img img {
+  width: min(100%,400px);
+  border-radius: 15px;
+}
+.product-cont {
+  font-family: var(--protest);
+  width: min(100%, 400px);
+  padding: 0 0 0 30px;
+}
+.product-cont h4 {
+  font-size: 25px;
+  color: var(--light-pink);
+  margin-bottom: 0;
+}
+.product-cont p {
+  font-size: 15px;
+  color: var(--light-pink);
+}
+.product-quantity button {
+  padding: 0px 18px;
+  font-size: 40px;
+  margin: 0 10px;
+  background: var(--light-pink);
+  color: #fff;
+  border: none;
+  position: relative;
+  top: 8px;
+  cursor: pointer;
+  border: 2px solid var(--light-pink);
+  transition: 0.5s;
+}
+.product-quantity button:hover {
+  background: #fff;
+  border: 2px solid var(--light-pink);
+  color: var(--light-pink);
+}
+.product-quantity input {
+  padding: 15px 10px;
+  margin: 0 !important;
+  width: min(100%,30px);
+  border: 2px solid var(--light-pink);
+}
+.product-quantity {
+  text-align: center;
+  width: min(100%, 400px);
+}
+.remove-product button {
+  background: #0000;
+  border: none;
+  font-size: 30px;
+  color: var(--light-pink);
+  cursor: pointer;
+  transition: 0.6s;
+}
+.remove-product button:hover {
+  color: red;
+}
+.cart-billing-wrp table tr th {
+  font-size: 20px;
+  text-align: left;
+  font-weight: 300;
+  text-transform: uppercase;
+  width: min(100%);
+}
+.cart-billing-wrp {
+  margin: 2em 20px 0;
+}
+.cart-billing-wrp table tr {
+  margin-bottom: 20px !important;
+  display: block;
+  font-family: var(--protest);
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--light-pink);
+}
+.cart-total-title {
+  font-size: 30px;
+  font-family: var(--protest);
+  color: var(--light-pink);
+  text-transform: uppercase;
+}
+.cart-billing-wrp table {
+  width: 100%;
+}
+.cart-billing-wrp table tr td {
+  text-align: right;
+  width: min(100%);
+  font-size: 20px;
+}
+.checkout-btn {
+  padding: 15px 0;
+  background: var(--light-pink);
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  color: var(--white);
+  font-family: var(--protest);
+  border-radius: 40px;
+  transition: 0.6s;
+  text-transform: uppercase;
+  margin: 30px 0 0;
+  border: 2px solid var(--light-pink);
+}
+.checkout-btn:hover{
+  background: var(--white);
+  color: var(--light-pink);
+  border: 2px solid var(--light-pink);
+}
+.swal2-confirm.swal2-styled {
+  background: var(--light-pink);
+  border-radius: 40px;
+  width: 100px;
+  padding: 12px 0;
+  font-size: 20px;
+  border: 2px solid var(--light-pink);
+  transition:0.6s;
+  font-family: var(--protest);
+}
+#swal2-title {
+  color: var(--light-pink);
+  font-size: 40px;
+  font-family: var(--protest);
+}
+#swal2-html-container {
+  font-family: var(--protest);
+  color: var(--light-pink);
+  font-size: 16px;
+}
+.swal2-confirm.swal2-styled:focus {
+  box-shadow: none;
+}
+.swal2-confirm.swal2-styled:hover {
+  background: #fff;
+  color: var(--light-pink);
+}
+@media only screen and (max-width:768px){
+.category-tems-sec .ant-row.css-dev-only-do-not-override-1rqnfsa, 
+.elements .ant-row.css-dev-only-do-not-override-1rqnfsa{
+  flex-direction: column !important;
+  justify-content: center;
+  padding: 20px;
+}
+
+.category-tems-sec :where(.css-dev-only-do-not-override-1rqnfsa).ant-col-6,
+.elements :where(.css-dev-only-do-not-override-1rqnfsa).ant-col-6 {
+  max-width: 100%;
+}
+.footer-sec :where(.css-dev-only-do-not-override-1rqnfsa).ant-row {
+  flex-direction: column;
+}
+.footer-sec :where(.css-dev-only-do-not-override-1rqnfsa).ant-col-8 {
+  text-align: center;
+}
+.footer-right-wrp ul {
+  justify-content: center;
+  margin: 4em 0 0;
+}
+.footer-left-wrp {
+  margin-bottom: 5em;
+}
+.single-product :where(.css-dev-only-do-not-override-1rqnfsa).ant-col-12 {
+  max-width: 100%;
+}
+.single-product :where(.css-dev-only-do-not-override-1rqnfsa).ant-row {
+  flex-direction: column;
+}
+}
